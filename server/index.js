@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin","https://dashboard-backend-w6lg.onrender.com")
+  res.setHeader("Access-Control-Allow-Origin","https://dashboard-frontend-viveksingh.onrender.com")
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
